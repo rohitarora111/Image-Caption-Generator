@@ -5,4 +5,5 @@
 > • Flask.ipynb contains the flask code for linking the index.html page and predict.html page<br />
 > • Vocab.npy contains the dictionary of words.<br />
 > • Model.part1 and Model.part2 are two splitted rar files of model.h5.<br />
+> • The CSS and Js.zip contains the css ,sass, jb and webfont file for html pages
 
