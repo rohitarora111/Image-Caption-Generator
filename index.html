@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<title>Image Captioning</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="css/main.css" />
+		<noscript><link rel="stylesheet" href="css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+
+				<div class="content">
+					<h1><a href="#">Image Caption Generator</a></h1>
+					<p>Upload a desired photograph<br />
+			</p>
+					<ul class="actions">
+
+						<li><a href="#"><form method=post enctype=multipart/form-data action={{url_for("predict")}}><input type=file name=img></a>     <input type=submit value=Upload> </form></li>
+    
+		
+      
+
+					</ul>
+				</div>
+			</header>
+
+		<!-- Scripts -->
+			<script src="js/jquery.min.js"></script>
+			<script src="js/jquery.scrolly.min.js"></script>
+			<script src="js/browser.min.js"></script>
+			<script src="js/breakpoints.min.js"></script>
+			<script src="js/util.js"></script>
+			<script src="js/main.js"></script>
+
+	</body>
+</html>
